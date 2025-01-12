@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(logger);
 
 // Routes
-app.use('/api/users', userRoutes);
+app.use('/api', userRoutes);
 
 
 
